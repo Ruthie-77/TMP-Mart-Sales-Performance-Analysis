@@ -1,5 +1,7 @@
 # TMP-Mart-Sales-Performance-Analysis
 This project evaluates TMP Mart's sales performance, customer behavior, product trends, and store performance. The goal is to develop a suite of dashboards that report business performance and provide insights and recommendations that address the needs of various stakeholders.
+## T
+
 ## Project Objective
 The objective of the report is to provide TMP with strategic insights for business decisions considering its global operation, competitive market and growth focus. Based on a series of interactions with our stakeholders, it was discovered that the business requires insights regarding its Sales performance across geographical locations and time periods, patterns in customer demographics and behavior, and performance levels of different product categories and brands, and stores on revenue values.
 ## Data Dictionary
@@ -40,6 +42,18 @@ The customer base is balanced by gender, 51% Male and 49% female; hence, male cu
 2. Reinforce value-driven messaging strategies for older adults, emphasising the  quality, durability, and convenience of products. Use personalized marketing and loyalty programs.
 3. For youth, introduce trendy, low-cost product bundles, with influencer partnerships to increase engagement and purchase frequency.
 4. Considering the demand trends, innovate around Tech and Home Essentials, e.g., subsidised bundles for Remote Work Starter Pack, Home Chef Kit, etc.
+## Stores Performance: Insights
+TMP Mart operates 67 stores globally, showing a strong global presence. Physical Stores account for about 80% of revenue, $ 44.35 M. However, the online store alone outperforms most individual outlets.
+Germany and France have more stores than the UK, yet earn far less. The UK, with fewer stores, delivers higher revenue. Mature stores generate the lion’s share of revenue, about $32M while newer ones perform below this. U.S. dominates with 24 stores and leads revenue ($14M). The U.S. and UK show that revenue per store matters more than store count, indicating efficiency, while countries like Italy and Australia underperform.
+## Recommendations
+1. Invest in the online platform using better logistics, mobile UX interfaces, and online-exclusive promotions to unlock its full potential.
+2. Considering that Germany has a larger physical presence than the UK but lags in revenue performance, TMP Mart should take a focused approach, dive deeper into Germany’s store performance and adopt the UK’s efficient model.
+3. Investigate the underperformance of France, Netherlands, and Italy, and prioritise locally driven strategies to improve sales.
+4. Finally, empower regional managers with access to performance metrics and best-practice insights from top stores to help local planning. 
+## Limitations
+There was limited information on delivery status, as data on delivery time was not provided. This would have enabled us to assess the company's delivery speed and examine the impact of this on customer satisfaction.
+## Author
+Ruth Omotosho
 
 
 
