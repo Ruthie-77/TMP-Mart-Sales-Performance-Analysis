@@ -1,6 +1,5 @@
 # TMP-Mart-Sales-Performance-Analysis
 This project evaluates TMP Mart's sales performance, customer behavior, product trends, and store performance. The goal is to develop a suite of dashboards that report business performance and provide insights and recommendations that address the needs of various stakeholders.
-## T
 
 ## Project Objective
 The objective of the report is to provide TMP with strategic insights for business decisions considering its global operation, competitive market and growth focus. Based on a series of interactions with our stakeholders, it was discovered that the business requires insights regarding its Sales performance across geographical locations and time periods, patterns in customer demographics and behavior, and performance levels of different product categories and brands, and stores on revenue values.
