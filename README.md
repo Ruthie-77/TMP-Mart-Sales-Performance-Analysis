@@ -1,6 +1,6 @@
 # TMP-Mart-Sales-Performance-Analysis
 This project evaluates TMP Mart's sales performance, customer behavior, product trends, and store performance. The goal is to develop a suite of dashboards that report business performance and provide insights and recommendations that address the needs of various stakeholders.
-## Objective
+## Project Objective
 The objective of the report is to provide TMP with strategic insights for business decisions considering its global operation, competitive market and growth focus. Based on a series of interactions with our stakeholders, it was discovered that the business requires insights regarding its Sales performance across geographical locations and time periods, patterns in customer demographics and behavior, and performance levels of different product categories and brands, and stores on revenue values.
 ## Data Dictionary
 Sales: Records of individual purchases including product, quantity, price, customer, and store.
@@ -14,6 +14,7 @@ Stores: Describes store locations and type (physical or online)
 Power Query was utilized for data cleaning, transformation, and relationship modeling across multiple tables. Power BI Desktop enabled the creation of an interactive dashboard
 ## Business Questions
 As TMP Mart grows, leadership wants to know: "Where exactly is our growth coming from—and what’s holding us back?" To answer this, we explored the following guiding questions;
+
 **Sales Performance:** How well are we performing across markets, countries and periods?
 
 **Product Trends:** What products and brands are driving our sales and which require more attention in terms of promotion?
@@ -22,6 +23,16 @@ As TMP Mart grows, leadership wants to know: "Where exactly is our growth coming
 
 **Store Analysis:** How are our stores in different locations performing and how do physical store sales compare with online sales?
 ## Exploratory Data Analysis
+## Sales Analysis: Insights
+TMP Mart made a total revenue of $55.76m, with total orders of about 26K in the understudied period. However, the AOV stood at $2,118. The United States led by a wide margin in store revenue ($24M), followed by online sales ($11M). Annual revenue peaked in 2019 ($18.3M) before a decline began, attributable to the COVID-19 pandemic. The monthly trend shows sales dip notably between March and April, then gradually recover towards December. In alignment with the country-based sales volume, the North American continent emerged with the highest revenue of about $34.6M, with the Australian Continent coming as the least.
+## Recommendations
+1. Double Down on High-Performing Product Categories including computers and home appliances through  allocating more shelf space to stock these categories, negotiating better supply deals to maximize margins and introducing loyalty programs to increase customer AOV for these items.
+2. Deepen market penetration in the US through geo-targeted advertising.
+3. For the underperforming items such as the games and toys category, evaluate customer demand by bundling them with the high-performing ones
+4. Strengthen partnership with high-selling brands
+5. Adjust inventory in line with seasonal trends and reduce seasonal sales dips through advert promotions, discounts, and campaigns.
+
+
 
 
 
