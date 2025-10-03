@@ -8,11 +8,11 @@
 - [Tools Used](#tools-used)
 - [Business Questions](#business-questions)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Sales & Products Analysis: Insights](#sales-&-products-analysis:-insights)
+- [Sales & Products Analysis: Insights](#sales-products-analysis-insights)
 - [Recommendations](#recommendations)
-- [Customer Behaviour: Insights](#customerbehaviour:-insights)
+- [Customer Behaviour: Insights](#customer-behaviour-insights)
 - [Recommendations](#recommendations)
-- [Stores Performance: Insights](#stores-performance:-Insights)
+- [Stores Performance: Insights](#stores-performance-Insights)
 - [Recommendations](#recommendations)
 - [Limitations](#limitations)
 
@@ -51,15 +51,23 @@ Total Orders = DISTINCTCOUNT(SalesExr[Order Number])
 AOV = DIVIDE([Total Revenue], DISTINCTCOUNT(SalesExr[Order Number]))
 ```
 ## Recommendations
-1. Double Down on High-Performing Product Categories, including computers and home appliances, through  allocating more shelf space to stock these categories, negotiating better supply deals to maximize margins, and introducing loyalty programs to increase customer AOV for these items.
+1. Double down on high-performing product categories, including computers and home appliances, through  allocating more shelf space to stock these categories, negotiating better supply deals to maximize margins, and introducing loyalty programs to increase customer AOV for these items.
 2. Deepen market penetration in the US through geo-targeted advertising.
 3. For the underperforming items, such as the games and toys category, evaluate customer demand by bundling them with the high-performing ones
 4. Strengthen partnership with high-selling brands
 5. Adjust inventory in line with seasonal trends and reduce seasonal sales dips through advert promotions, discounts, and campaigns.
 
 ## Customer Behaviour: Insights
-TMP Mart serves about 15,000 customers across diverse locations and demographics, where 80% of our customer base are purchasing customers. The U.S. leads significantly with 6.8K customers, more than 3x the UK.
-The customer base is balanced by gender, 51% Male and 49% female; hence, male customers drive more revenue than female. Older Adults dominate spending for TMP’s products, contributing over $38.8M, while Young Adults and youth are lagging. Revenue by category and age group reveals that computers, home appliances, and other digital products dominate, while entertainment products are low-performing.
+TMP Mart serves about 15,000 customers across diverse locations and demographics, where 80% of its customer base are purchasing customers. The U.S. leads significantly with 6.8K customers, more than 3x the UK.
+The customer base is balanced by gender, 51% Male and 49% female; hence, male customers drive more revenue than female customers. Older Adults dominate spending for TMP’s products, contributing over $38.8M, while Young Adults and youth are lagging. Revenue by category and age group reveals that computers, home appliances, and other digital products dominate, while entertainment products are low-performing.
+
+```PowerBI
+Total Customers = DISTINCTCOUNT(Customers[CustomerKey])
+Purchasing customers = DISTINCTCOUNT(SalesExr[CustomerKey])
+Male Customers = CALCULATE(COUNTROWS(Customers), Customers[Gender] = "Male")
+Female Customers = CALCULATE(COUNTROWS(Customers), Customers[Gender] = "Female")
+
+
 ## Recommendations
 1. Launch geo-targeted campaigns in underrepresented European markets to drive awareness.
 2. Reinforce value-driven messaging strategies for older adults, emphasising the  quality, durability, and convenience of products. Use personalized marketing and loyalty programs.
