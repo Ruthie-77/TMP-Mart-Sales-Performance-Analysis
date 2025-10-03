@@ -5,6 +5,15 @@
 - [Introduction](#introduction)
 - [Project Objective](#project-objective)
 - [Data Dictionary](#data-dictionary)
+- [Tools Used](#tools-used)
+- [Business Questions](#business-questions)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Sales & Products Analysis: Insights](#sales-&-products-analysis:-insights)
+- [Recommendations](#recommendations)
+- [Customer Behaviour: Insights](#customerbehaviour:-insights)
+- [Recommendations](#recommendations)
+- [Stores Performance: Insights](#stores-performance:-Insights)
+- [Recommendations](#recommendations)
 - [Limitations](#limitations)
 
 ## Introduction
@@ -25,13 +34,13 @@ Power Query was utilized for data cleaning, transformation, and relationship mod
 ## Business Questions
 As TMP Mart grows, leadership wants to know: "Where exactly is our growth coming from—and what’s holding us back?" To answer this, we explored the following guiding questions;
 
-**Sales Performance:** How well are we performing across markets, countries and periods?
+**Sales Performance:** How well are we performing across markets, countries, and periods?
 
-**Product Trends:** What products and brands are driving our sales and which require more attention in terms of promotion?
+**Product Trends:** What products and brands are driving our sales, and which require more attention in terms of promotion?
 
-**Customer Behavior:** Who are our customers in terms of age and gender demographics and what are their product preferences and spending patterns?
+**Customer Behavior:** Who are our customers in terms of age and gender demographics, and what are their product preferences and spending patterns?
 
-**Store Analysis:** How are our stores in different locations performing and how do physical store sales compare with online sales?
+**Store Analysis:** How are our stores in different locations performing, and how do physical store sales compare with online sales?
 ## Exploratory Data Analysis
 ## Sales & Products Analysis: Insights
 TMP Mart generated a total revenue of $55.76 million, with approximately 26,000 total orders during the studied period. However, the AOV stood at $2,118. The United States led by a wide margin in store revenue ($24M), followed by online sales ($11M). Annual revenue peaked in 2019 ($18.3M) before a decline began, attributable to the COVID-19 pandemic. The monthly trend shows a notable dip in sales between March and April, followed by a gradual recovery towards December. In alignment with the country-based sales volume, the North American continent emerged with the highest revenue of about $34.6M, with the Australian Continent coming as the least.
@@ -42,7 +51,7 @@ Total Orders = DISTINCTCOUNT(SalesExr[Order Number])
 AOV = DIVIDE([Total Revenue], DISTINCTCOUNT(SalesExr[Order Number]))
 ```
 ## Recommendations
-1. Double Down on High-Performing Product Categories, including computers and home appliances, through  allocating more shelf space to stock these categories, negotiating better supply deals to maximize margins and introducing loyalty programs to increase customer AOV for these items.
+1. Double Down on High-Performing Product Categories, including computers and home appliances, through  allocating more shelf space to stock these categories, negotiating better supply deals to maximize margins, and introducing loyalty programs to increase customer AOV for these items.
 2. Deepen market penetration in the US through geo-targeted advertising.
 3. For the underperforming items, such as the games and toys category, evaluate customer demand by bundling them with the high-performing ones
 4. Strengthen partnership with high-selling brands
@@ -61,8 +70,8 @@ TMP Mart operates 67 stores globally, showing a strong global presence. Physical
 Germany and France have more stores than the UK, yet earn far less. The UK, with fewer stores, delivers higher revenue. Mature stores generate the lion’s share of revenue, about $32M while newer ones perform below this. U.S. dominates with 24 stores and leads revenue ($14M). The U.S. and UK show that revenue per store matters more than store count, indicating efficiency, while countries like Italy and Australia underperform.
 ## Recommendations
 1. Invest in the online platform using better logistics, mobile UX interfaces, and online-exclusive promotions to unlock its full potential.
-2. Considering that Germany has a larger physical presence than the UK but lags in revenue performance, TMP Mart should take a focused approach, dive deeper into Germany’s store performance and adopt the UK’s efficient model.
-3. Investigate the underperformance of France, Netherlands, and Italy, and prioritise locally driven strategies to improve sales.
+2. Considering that Germany has a larger physical presence than the UK but lags in revenue performance, TMP Mart should take a focused approach, dive deeper into Germany’s store performance, and adopt the UK’s efficient model.
+3. Investigate the underperformance of France, the Netherlands, and Italy, and prioritise locally driven strategies to improve sales.
 4. Finally, empower regional managers with access to performance metrics and best-practice insights from top stores to help local planning. 
 ## Limitations
 There was limited information on delivery status, as data on delivery time was not provided. This would have enabled us to assess the company's delivery speed and examine the impact of this on customer satisfaction.
